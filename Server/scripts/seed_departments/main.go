@@ -20,13 +20,17 @@ type departmentSeed struct {
 	Name string
 }
 
+// var departments = []departmentSeed{
+// 	{ID: "technical-cp", Name: "Technical (CP)"},
+// 	{ID: "projects-web-development", Name: "Projects & Web Development"},
+// 	{ID: "design", Name: "Design"},
+// 	{ID: "outreach", Name: "Outreach"},
+// 	{ID: "event-management", Name: "Event Management"},
+// 	{ID: "social-media-content", Name: "Social Media & Content"},
+// }
+
 var departments = []departmentSeed{
-	{ID: "technical-cp", Name: "Technical (CP)"},
-	{ID: "projects-web-development", Name: "Projects & Web Development"},
-	{ID: "design", Name: "Design"},
-	{ID: "outreach", Name: "Outreach"},
-	{ID: "event-management", Name: "Event Management"},
-	{ID: "social-media-content", Name: "Social Media & Content"},
+	{ID: "cabinet", Name: "Cabinet"},
 }
 
 func main() {
